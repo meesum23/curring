@@ -22,3 +22,6 @@ Explanation:
 The curriedAdd function takes the first argument (a) and returns a new function that takes the next argument (b).
 The second function then returns another function that takes the final argument (c).
 When all arguments are provided, the original function logic is executed.
+
+Real World Example:
+Imagine a customer service application where different types of messages (greetings, warnings, errors) need to be sent to users. Currying can help create a flexible function to generate these messages with different levels of customization.
